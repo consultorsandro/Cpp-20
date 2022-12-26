@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "Build with GCC",
+			"label": "Build GCC",
 			"command": "C:\\mingw64\\bin\\g++.exe",
 			"args": [
 				"-g",
@@ -19,7 +19,28 @@
 				"$gcc"
 			],
 			"group": "build",
-			"detail": "compilador: C:\\mingw64\\bin\\g++.exe"
+			"detail": "compiler: C:\\mingw64\\bin\\g++.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build with Clang",
+			"command": "C:\\mingw64\\bin\\clang++.exe",
+			"args": [
+				"-g",
+				"-std=c++20",
+				"${workspaceFolder}\\*.cpp",
+				"-o",
+				"${fileDirname}\\rooster.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: C:\\mingw64\\bin\\clang++.exe"
 		}
+
 	]
 }
