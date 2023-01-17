@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Meu Computador/Downloads/C++20  Curso nas pastas/The-C-20-Masterclass-Source-Code-main/11.Loops/11.2ForLoop",
-      "program": "c:/Users/Meu Computador/Downloads/C++20  Curso nas pastas/The-C-20-Masterclass-Source-Code-main/11.Loops/11.2ForLoop/build/Debug/outDebug",
+      "cwd": "c:/workspace/Cpp-20/11.Loops/11.2ForLoop",
+      "program": "c:/workspace/Cpp-20/11.Loops/11.2ForLoop/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "C:/mingw64/bin/gdb.exe",
       "setupCommands": [
